@@ -30,7 +30,8 @@ while cont < len(result):
         found = True
     cont = cont + 1    
 connection = ''.join(connection)
-# opening the Windows configuration default open System file and Replacing the template with the name of the open connection
+# opening the Windows configuration default open wireless System file and Replacing the template with the name of the open connection
+# !!! this scipt NEEDS the "connection.txt" File (provided on github page) into the same folder,or you can just hardcode the path of the file 
 f = open("connection.txt",'r+')
 lines=f.readlines()
 listedlines = []
