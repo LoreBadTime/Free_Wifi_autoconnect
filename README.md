@@ -1,1 +1,1 @@
-# Free_Wifi_autoconnect
+Simple python script to connect to Free nearby wifi
