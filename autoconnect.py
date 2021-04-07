@@ -51,7 +51,7 @@ for line in newlist:
 f.close()
 file.close()
 #final script load 
-#this will delete the open connection(if already stored in Windows) before loading the 
+#this will delete the open connection(if already stored in Windows) before loading the new connection
 try:
     subprocess.run(['netsh', 'wlan', 'delete','profile', 'filename="'+ connection + '.xml"'],creationflags=CREATE_NO_WINDOW)
 except:
